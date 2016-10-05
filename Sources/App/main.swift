@@ -1,6 +1,4 @@
 import Vapor
-import Node
-import JSON
 import Foundation
 import HTTP
 
@@ -18,7 +16,7 @@ drop.post("/callback"){ req in
         return Response(status: .ok, body: "this message is not supported")
     }
     
-    ReplayMessageAPI(replyToken: replyToken, message: message).send()
+    ReplyMessageAPI(replyToken: replyToken, message: message).send()
     
     return Response(status: .ok, body: "reply")
     

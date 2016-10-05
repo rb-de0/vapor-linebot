@@ -1,6 +1,6 @@
 import Foundation
 
-class ReplayMessageAPI: LineAPI{
+class ReplyMessageAPI: LineAPI{
     
     let endpoint = "https://api.line.me/v2/bot/message/reply"
     
