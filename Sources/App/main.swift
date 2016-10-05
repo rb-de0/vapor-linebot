@@ -6,7 +6,7 @@ import HTTP
 
 let drop = Droplet()
 
-LineAPIConfig.configure(with: drop.config)
+//LineAPIConfig.configure(with: drop.config)
 
 drop.post("/callback"){ req in
     
