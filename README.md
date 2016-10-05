@@ -1,15 +1,29 @@
-# Basic Template
+[![Swift 3.0](https://img.shields.io/badge/Swift-3.0-orange.svg)](https://swift.org)
+![Platform Linux, OSX](https://img.shields.io/badge/Platforms-Linux%2C%20OSX-lightgray.svg)
+[![Build Status](https://travis-ci.org/rb-de0/vapor-linebot.svg?branch=master)](https://travis-ci.org/rb-de0/vapor-linebot)
 
-A basic vapor template for starting a new Vapor web application. If you're using vapor toolbox, you can use: `vapor new --template=basic`
+# vapor-linebot
 
-## 📖 Documentation
+line messaging api example using vapor(swift web framework)
 
-Visit the Vapor web framework's [documentation](http://docs.vapor.codes) for instructions on how to use this package.
+## Prerequisites
 
-## 💧 Community
+#### Swift
 
-Join the welcoming community of fellow Vapor developers in [slack](http://vapor.team).
+- Swift 3.0 Release
 
-## 🔧 Compatibility
+#### macOS
 
-This package has been tested on macOS and Ubuntu.
+- OS X El Captain 10.11.6
+
+#### Linux
+
+- Ubuntu 14.04
+
+#### Other
+
+- curl 7.35.0
+
+## Lisence
+
+vapor-linebot is released under the MIT License. See the LICENSE file for more info.
