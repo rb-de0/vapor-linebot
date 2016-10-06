@@ -26,4 +26,4 @@ line messaging api example using vapor(swift web framework)
 
 ## Lisence
 
-vapor-linebot is released under the MIT License. See the LICENSE file for more info.
+vapor-linebot is released under the MIT License. See the license file for more info.
